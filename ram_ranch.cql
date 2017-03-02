@@ -1,0 +1,30 @@
+use data;
+DROP TABLE data.all_data;
+CREATE TABLE data.all_data(
+  name varchar,
+  albums float,
+  avg_album float,
+  avg_song float,
+  cont text,
+  cont_count text,
+  cont_word text,
+  duration float,
+  followers float,
+  genres list<text>,
+  pop float,
+  ref_count float,
+  songs float,
+  sum text,
+  sum_count text,
+  sum_word text,
+  artist_albums list<text>,
+  album_avg_song list<float>,
+  album_duration list<float>,
+  album_popularity list<float>,
+  album_release list<text>,
+  album_tracks list<float>,
+  artist_track list<text>,
+  track_popularity list<float>,
+  track_duration list<float>,
+  PRIMARY KEY(name)
+);
